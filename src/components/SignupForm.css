@@ -1,0 +1,46 @@
+    form {
+        display: flex;
+        flex-direction: column;
+        max-width: 400px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    input {
+        padding: 10px;
+        color: whitesmoke;
+        margin: 5px;
+        margin-bottom: 10px;
+        width: 300px;
+    }
+
+    .error-message {
+        display: flex;
+        color: red;
+        margin: 0;
+        transform: translateX(7px);
+        font-size: 12px;
+        align-self: self-start;
+    }
+
+    button {
+        padding: 10px;
+        background-color: #4375fb;
+        color: #fff;
+        cursor: pointer;
+        border: none;
+        font-size: 16px;
+        margin-top: 10px;
+        width: 324px;
+    }
+
+    button:disabled {
+        opacity: 10%;
+        cursor: not-allowed;
+    }
+
+    .credits {
+        margin-top:30px;
+        font-size: 10px;
+        color: grey;
+    }
